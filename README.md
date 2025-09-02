@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 ArthKosh – Personal Finance Manager
 
-## Getting Started
+**ArthKosh** is a modern, privacy-first personal finance manager built with **Next.js, shadcn/ui, and TypeScript**.  
+It helps you **track expenses, analyze budgets, and visualize savings** in an elegant and secure way — with all data under your control.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   📊 **Expense & Income Tracking** – Log transactions in categories like Food, Rent, Travel, etc.
+-   🏦 **Multi-Account Support** – Manage bank accounts, wallets, UPI, and cash seamlessly.
+-   📅 **Recurring Transactions** – Automate monthly bills and salaries.
+-   📈 **Visual Reports** – Rich charts for spending insights and trends.
+-   🔐 **Privacy-First** – Local-first design with optional encrypted sync.
+-   🌍 **Internationalization Ready** – Currency & locale aware.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+-   **Framework**: [Next.js](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+-   **UI Kit**: [shadcn/ui](https://ui.shadcn.com/) + [Tailwind CSS](https://tailwindcss.com/)
+-   **State/Data**: React Query, Zustand
+-   **Database**: Prisma + PostgreSQL (or SQLite for local)
+-   **Validation**: Zod
+-   **Charts**: Recharts
+-   **Testing**: Vitest + React Testing Library
+-   **CI/CD**: GitHub Actions + Vercel
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   [ ] Core transaction management
+-   [ ] Category system with icons
+-   [ ] Reports & analytics dashboard
+-   [ ] User authentication & encryption
+-   [ ] Multi-account support
+-   [ ] Mobile-first PWA support
 
-## Deploy on Vercel
+See [ROADMAP.md](./ROADMAP.md) for a detailed breakdown.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions are welcome!  
+Please open an **issue** to discuss feature requests or bugs before creating a PR.
+
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feat/transaction-form`
+3. Commit changes with conventional commits
+4. Open a PR 🎉
+
+---
+
+## 📜 License
+
+MIT © 2025 bugsum.xyz
