@@ -1,105 +1,255 @@
-# 🛣️ ArthKosh Roadmap
+# ArthKosh Development Roadmap
 
-ArthKosh is a **personal finance manager** built with **Next.js, shadcn/ui, and modern tooling**.  
-This roadmap outlines the milestones, features, and development workflow for the project.
+This document outlines the development roadmap for ArthKosh, our personal finance management application.
+
+## 🎯 Vision
+
+ArthKosh aims to be the most user-friendly, feature-rich, and privacy-focused personal finance management application available. We focus on simplicity, security, and actionable insights to help users achieve their financial goals.
+
+## 🚀 Current Status: v0.1.0 (Alpha)
+
+**Release Date**: 03 September 2025  
+**Status**: Active Development
+
+### ✅ Completed Features
+
+-   **Core Infrastructure**
+
+    -   Next.js 15 with App Router
+    -   TypeScript with strict type safety
+    -   TailwindCSS + shadcn/ui components
+    -   Prisma ORM with SQLite
+    -   NextAuth.js authentication
+
+-   **Authentication & Security**
+
+    -   Google OAuth integration
+    -   Email magic link authentication
+    -   Role-based access control (User/Admin)
+    -   Secure session management
+
+-   **Financial Management**
+
+    -   Multi-account support (Bank, Wallet, Credit Card, Investment)
+    -   Transaction CRUD operations
+    -   Category and tag management
+    -   Budget planning and tracking
+    -   Goal setting and progress tracking
+
+-   **Analytics & Insights**
+
+    -   Income vs Expense charts
+    -   Category spending breakdowns
+    -   Net worth tracking over time
+    -   Budget overspending alerts
+    -   Goal progress visualization
+
+-   **Data Management**
+
+    -   CSV import/export functionality
+    -   Bulk transaction operations
+    -   Data validation and error handling
+
+-   **User Experience**
+    -   Responsive mobile-first design
+    -   Dark/light theme support
+    -   Toast notifications
+    -   Loading states and error handling
+
+## 📅 Upcoming Releases
+
+### v0.2.0 (Beta) - Q4 2024
+
+**Focus**: Enhanced User Experience & Performance
+
+#### 🎨 UI/UX Improvements
+
+-   [ ] Enhanced dashboard customization
+-   [ ] Advanced filtering and search
+-   [ ] Drag-and-drop transaction categorization
+-   [ ] Improved mobile navigation
+-   [ ] Accessibility improvements (WCAG 2.1 AA)
+
+#### 📊 Enhanced Analytics
+
+-   [ ] Custom date range selection
+-   [ ] Export charts as images/PDFs
+-   [ ] Comparative period analysis
+-   [ ] Spending pattern recognition
+-   [ ] Financial health score
+
+#### 🔧 Performance & Stability
+
+-   [ ] Database query optimization
+-   [ ] Caching implementation
+-   [ ] Lazy loading for large datasets
+-   [ ] Error boundary improvements
+-   [ ] Performance monitoring
+
+### v0.3.0 (Release Candidate) - Q1 2025
+
+**Focus**: Advanced Features & Integrations
+
+#### 💳 Enhanced Financial Features
+
+-   [ ] Recurring transactions
+-   [ ] Bill reminders and notifications
+-   [ ] Split transactions
+-   [ ] Multi-currency support
+-   [ ] Investment portfolio tracking
+
+#### 🔗 Integrations
+
+-   [ ] Bank API integrations (Open Banking)
+-   [ ] Plaid integration for account syncing
+-   [ ] Export to accounting software
+-   [ ] Calendar integration
+-   [ ] Email receipt parsing
+
+#### 📱 Mobile Experience
+
+-   [ ] Progressive Web App (PWA)
+-   [ ] Offline functionality
+-   [ ] Push notifications
+-   [ ] Touch-optimized interactions
+
+### v1.0.0 (Stable Release) - Q2 2025
+
+**Focus**: Production Readiness & Enterprise Features
+
+#### 🏢 Enterprise Features
+
+-   [ ] Multi-user household management
+-   [ ] Advanced reporting and analytics
+-   [ ] Role-based permissions
+-   [ ] Audit logging
+-   [ ] Data backup and recovery
+
+#### 🔒 Security & Compliance
+
+-   [ ] End-to-end encryption
+-   [ ] GDPR compliance
+-   [ ] SOC 2 Type II certification
+-   [ ] Regular security audits
+-   [ ] Penetration testing
+
+#### 🚀 Deployment & Scaling
+
+-   [ ] Docker containerization
+-   [ ] Kubernetes deployment
+-   [ ] Auto-scaling infrastructure
+-   [ ] Multi-region deployment
+-   [ ] CDN integration
+
+## 🗺️ Long-term Vision (v2.0+)
+
+### 📱 Native Applications
+
+-   [ ] iOS mobile app (React Native)
+-   [ ] Android mobile app (React Native)
+-   [ ] Desktop applications (Electron)
+-   [ ] Apple Watch integration
+
+### 🤖 AI & Machine Learning
+
+-   [ ] Smart categorization suggestions
+-   [ ] Anomaly detection in spending
+-   [ ] Predictive financial insights
+-   [ ] Personalized financial advice
+-   [ ] Automated budget optimization
+
+### 🌍 Global Features
+
+-   [ ] Multi-language support
+-   [ ] Regional tax calculations
+-   [ ] International banking standards
+-   [ ] Currency conversion
+-   [ ] Local financial regulations
+
+### 🔌 Platform & API
+
+-   [ ] Public REST API
+-   [ ] Webhook support
+-   [ ] Third-party integrations
+-   [ ] Plugin system
+-   [ ] Developer marketplace
+
+## 🎯 Success Metrics
+
+### User Engagement
+
+-   **Daily Active Users**: Target 10,000+ by v1.0
+-   **Session Duration**: Average 15+ minutes
+-   **Feature Adoption**: 80%+ of users use core features
+
+### Technical Performance
+
+-   **Page Load Time**: <2 seconds
+-   **API Response Time**: <500ms
+-   **Uptime**: 99.9%+
+-   **Error Rate**: <0.1%
+
+### Business Metrics
+
+-   **User Retention**: 70%+ monthly retention
+-   **User Satisfaction**: 4.5+ star rating
+-   **Community Growth**: 1,000+ contributors
+
+## 🛣️ Development Principles
+
+### 1. **User-Centric Design**
+
+-   Prioritize user needs over technical complexity
+-   Regular user feedback and testing
+-   Accessibility as a core requirement
+
+### 2. **Quality Over Speed**
+
+-   Comprehensive testing and validation
+-   Code review requirements
+-   Performance monitoring and optimization
+
+### 3. **Open Source First**
+
+-   All code publicly available
+-   Community-driven development
+-   Transparent decision-making
+
+### 4. **Security by Design**
+
+-   Privacy-first approach
+-   Regular security audits
+-   Minimal data collection
+
+### 5. **Scalable Architecture**
+
+-   Microservices-ready design
+-   Database optimization
+-   Cloud-native deployment
+
+## 🤝 Community Involvement
+
+### How to Contribute
+
+-   **Code**: Submit pull requests for features/bugs
+-   **Design**: Contribute UI/UX improvements
+-   **Testing**: Help test new features
+-   **Documentation**: Improve guides and docs
+-   **Feedback**: Report bugs and suggest features
+
+### Recognition
+
+-   **Contributors**: Listed in README and releases
+-   **Maintainers**: Special recognition for regular contributors
+-   **Hall of Fame**: Top contributors get special status
+
+## 📞 Get Involved
+
+-   **GitHub**: [github.com/yourusername/arthkosh](https://github.com/yourusername/arthkosh)
+-   **Discussions**: [GitHub Discussions](https://github.com/yourusername/arthkosh/discussions)
+-   **Issues**: [GitHub Issues](https://github.com/yourusername/arthkosh/issues)
+-   **Discord**: [Join our community](https://discord.gg/arthkosh)
 
 ---
 
-## 📍 Phase 1: Project Foundation
-
--   [-] Initialize Next.js project (`app` directory, TypeScript enabled)
--   [-] Setup TailwindCSS + shadcn/ui
--   [ ] Configure ESLint + Prettier + Husky (pre-commit hooks)
--   [ ] Add basic layout: Navbar, Footer, Theme Provider
--   [ ] Setup GitHub Actions for CI (lint + build)
-
----
-
-## 📍 Phase 2: Authentication & User Management
-
--   [ ] Integrate **NextAuth.js** (Google + Email providers)
--   [ ] Add user profile page
--   [ ] Setup Prisma + PostgreSQL (NeonDB or Supabase)
--   [ ] Create `User` model in Prisma schema
--   [ ] Add role support (admin, user)
-
----
-
-## 📍 Phase 3: Core Finance Features
-
--   [ ] Add `Accounts` (Bank, Wallet, Credit Card)
--   [ ] Add `Transactions` (income, expense, transfer)
--   [ ] Add categories & tags for transactions
--   [ ] Build transaction list + filters
--   [ ] Add ability to import/export transactions (CSV)
-
----
-
-## 📍 Phase 4: Insights & Dashboards
-
--   [ ] Setup **Charts** (Recharts or Chart.js)
--   [ ] Monthly income vs expense graph
--   [ ] Category-wise spending breakdown
--   [ ] Net worth tracker (across all accounts)
--   [ ] Savings goals progress tracker
-
----
-
-## 📍 Phase 5: Smart Features
-
--   [ ] Budget planning per category
--   [ ] Alerts (overspending, unusual activity)
--   [ ] AI-driven insights (optional future feature)
-
----
-
-## 📍 Phase 6: UI/UX Enhancements
-
--   [ ] Mobile-first responsive design
--   [ ] Dark/Light mode toggle
--   [ ] Notifications & toasts (sonner)
--   [ ] Accessibility (ARIA roles, keyboard nav)
-
----
-
-## 📍 Phase 7: Deployment & Production
-
--   [ ] Setup environment variables securely
--   [ ] Deploy on **Vercel**
--   [ ] Setup database hosting (Supabase/NeonDB)
--   [ ] CI/CD workflow with GitHub Actions
-
----
-
-## 📍 Phase 8: Documentation & Open Source
-
--   [ ] Complete `README.md`
--   [ ] Add `CONTRIBUTING.md`
--   [ ] Add `ROADMAP.md` (this file)
--   [ ] Setup Issue Templates & PR Templates
--   [ ] Versioning & Release Notes
-
----
-
-## 🔄 Development Workflow
-
--   Use **feature branches** (`feat/*`, `fix/*`, `chore/*`)
--   Always open a **Pull Request** → merge into `main`
--   Keep commits **small and descriptive**
--   Example:
-
-```
-    feat: add transaction model to Prisma
-    chore: setup shadcn/ui and base layout
-    fix: resolve category filter bug
-```
-
----
-
-## 🎯 Long-Term Vision
-
-ArthKosh aims to be:
-
--   A **simple yet powerful** personal finance tracker
--   **Open-source friendly** for community contributions
--   **Privacy-first** (self-hostable, minimal data collection)
+\_This roadmap is a living document and will be updated based on community feedback and development progress. Last updated: 03 September 2025
